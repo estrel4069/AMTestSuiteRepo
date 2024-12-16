@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "dom"], // Include DOM for browser-specific objects
+    "outDir": "./dist/", // Output directory for compiled files
+    "sourceMap": true, // Generate source maps for debugging
+    "noImplicitAny": true, // Enforce type safety
+    "module": "commonjs", // Use CommonJS module system
+    "target": "es6", // Target modern JavaScript
+    "moduleResolution": "node", // Resolve modules using Node.js-style resolution
+    "jsx": "react" // Optional, if you're using React
+  },
+  "include": ["./src/**/*"] // Ensure all files in the src folder are included
+}
